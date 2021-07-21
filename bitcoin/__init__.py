@@ -41,9 +41,9 @@ class TestNetParams(bitcoin.core.CoreTestNetParams):
     DEFAULT_PORT = 18335
     RPC_PORT = 18335
     DNS_SEEDS = ()
-    BASE58_PREFIXES = {'PUBKEY_ADDR':111,
+    BASE58_PREFIXES = {'PUBKEY_ADDR':113,
                        'SCRIPT_ADDR':196,
-                       'SECRET_KEY' :239}
+                       'SECRET_KEY' :241}
     BECH32_HRP = ''
 
 class RegTestParams(bitcoin.core.CoreRegTestParams):
@@ -51,9 +51,9 @@ class RegTestParams(bitcoin.core.CoreRegTestParams):
     DEFAULT_PORT = 18335
     RPC_PORT = 18335
     DNS_SEEDS = ()
-    BASE58_PREFIXES = {'PUBKEY_ADDR':111,
+    BASE58_PREFIXES = {'PUBKEY_ADDR':113,
                        'SCRIPT_ADDR':196,
-                       'SECRET_KEY' :239}
+                       'SECRET_KEY' :241}
     BECH32_HRP = ''
 
 """Master global setting for what chain params we're using.
